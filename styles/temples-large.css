@@ -1,0 +1,25 @@
+@media screen and (min-width: 640px) {
+
+#menuButton {
+  display: none; /* hide hamburger */
+}
+
+nav {
+  display: block;
+}
+
+nav ul {
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
+}
+
+nav ul li a {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+}
+
+.gallery {
+  grid-template-columns: repeat(3, 1fr);
+}
+}

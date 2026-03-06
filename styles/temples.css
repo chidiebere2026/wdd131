@@ -1,0 +1,120 @@
+:root {
+  /* Colors */
+  --color-header-bg: #011733;
+  --color-header-text: #ffffff;
+  --color-nav-hover: #e9b712;
+  --color-footer-bg: #141516f1;
+  --color-footer-text: #ffffff;
+
+  /* Font */
+  --font-main: Arial, Helvetica, sans-serif;
+
+  /* Spacing */
+  --spacing-small: 0.5rem;
+  --spacing-medium: 1rem;
+
+  /* Max width */
+  --max-width: 1200px;
+
+
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-main);
+}
+
+header, main, footer {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+  background: var(--color-header-bg);
+  height: 100px;
+  color: var(--color-header-text);
+  padding: var(--spacing-medium);
+  position: relative;
+  display: flex;            
+  align-items: center;       
+  justify-content: space-between; 
+}
+
+header h1 {
+  font-size: var(--font-size-header);
+  margin: 0;
+  font-family: "Play", sans-serif;
+  font-weight: 700;
+  font-size: 35px;
+}
+
+nav {
+  display: flex;             
+}
+
+nav ul {
+  display: flex;            
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  gap: var(--spacing-medium); 
+}
+
+nav ul li a {
+  display: block;
+  font-family: "Play", sans-serif;
+  font-size: 19px;
+  text-decoration: none;
+  color: var(--color-header-text);
+  padding: var(--spacing-small) var(--spacing-medium);
+}
+
+nav ul li a:hover {
+  background: var(--color-nav-hover);
+}
+
+#menuButton {
+  font-size: var(--font-size-menu);
+  background: none;
+  border: none;
+  color: var(--color-header-text);
+  float: right;
+  cursor: pointer;
+}
+
+main {
+  padding: var(--spacing-medium);
+}
+
+main h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--spacing-medium);
+}
+
+figure {
+  text-align: center;
+}
+
+figure img {
+  width: 100%;
+  height: auto;
+}
+
+footer {
+  background: var(--color-footer-bg);
+  color: var(--color-footer-text);
+  text-align: center;
+  padding: var(--spacing-medium);
+  margin-top: var(--spacing-medium);
+}
