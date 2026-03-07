@@ -85,12 +85,19 @@ header {
 }
 
 #primary-nav a:hover {
-  color: var(--color-nav-hover);
+  color: var(--color-dark);
+  background-color: var(--color-nav-hover);
+  padding: 10px;
 }
 
 /* Show nav when active */
 #primary-nav.open {
   display: block;
+}
+
+#primary-nav .active {
+  color: var(--color-nav-hover);
+  font-weight: bold;
 }
 
 /* MAIN */
