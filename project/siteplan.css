@@ -1,0 +1,141 @@
+/* siteplan.css */
+
+/* Root variables*/
+:root {
+  --bg-color: #f4f4f4;
+  --primary-color: #2c3e50; 
+  --secondary-color: #e74c3c; 
+  --text-color: #333333;
+  --header-bg: #2c3e50;
+  --header-text: #ffffff;
+
+  --color-sample-bg-main: #f4f4f4;
+  --color-sample-bg-primary: #2c3e50;
+  --color-sample-bg-secondary: #e74c3c;
+}
+
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: var(--header-bg);
+  color: var(--header-text);
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+header p {
+  font-size: 1rem;
+  margin-top: 5px;
+}
+
+/* Section Styles */
+section {
+  background-color: #ffffff;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 900px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+h2 {
+  color: var(--primary-color);
+  font-family: 'Roboto', sans-serif;
+  margin-bottom: 10px;
+}
+
+h3 {
+  color: var(--secondary-color);
+  font-family: 'Open Sans', sans-serif;
+  margin-top: 15px;
+}
+
+ul, ol {
+  padding-left: 20px;
+}
+
+/* Color Samples */
+.color-sample {
+  display: inline-block;
+  width: 50px;
+  height: 20px;
+  margin-left: 10px;
+  border: 1px solid #ccc;
+  vertical-align: middle;
+}
+
+/* Assign specific sample colors */
+.color-sample.main { background-color: var(--color-sample-bg-main); }
+.color-sample.primary { background-color: var(--color-sample-bg-primary); }
+.color-sample.secondary { background-color: var(--color-sample-bg-secondary); }
+
+/* Wireframe Placeholder */
+.wireframe {
+  border: 2px dashed #7f8c8d;
+  height: 150px;
+  margin: 10px 0;
+  text-align: center;
+  line-height: 150px;
+  color: #7f8c8d;
+  font-style: italic;
+  border-radius: 5px;
+}
+
+/* Typography Overrides */
+body, p, li {
+  font-family: Arial, sans-serif;
+  font-size: 1rem;
+}
+
+strong {
+  color: var(--primary-color);
+}
+
+/* Responsive Layout */
+@media screen and (max-width: 768px) {
+  header h1 {
+    font-size: 1.5rem;
+  }
+
+  section {
+    margin: 15px;
+    padding: 15px;
+  }
+
+  .wireframe {
+    height: 120px;
+    line-height: 120px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  header h1 {
+    font-size: 1.2rem;
+  }
+
+  section {
+    margin: 10px;
+    padding: 10px;
+  }
+
+  .wireframe {
+    height: 100px;
+    line-height: 100px;
+  }
+}
