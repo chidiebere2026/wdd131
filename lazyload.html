@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lazy Loading Images</title>
+  <link rel="stylesheet" href="styles/lazyload.css">
+   <script src="scripts/lazyload.js" defer></script>
+</head>
+<body>
+
+  <main>
+    <h1>Lazy Loading Image Gallery</h1>
+
+    <!-- Images -->
+    <img src="images/uchtdorf.webp" alt="Dieter F. Uchtdorf" loading="lazy">
+    <img src="images/bednar.webp" alt="David A. Bednar" loading="lazy">
+    <img src="images/cook.webp" alt="Quentin L. Cook" loading="lazy">
+    <img src="images/andersen.webp" alt="Neil L. Andersen" loading="lazy">
+    <img src="images/rasband.webp" alt="Ronald A. Rasband" loading="lazy">
+    <img src="images/stevenson.webp" alt="Gary E. Stevenson" loading="lazy">
+
+  </main>
+
+  <footer>
+    <p>&copy; <span id="year"></span> | Lazy Load Project</p>
+    <p>Last Modified: <span id="lastModified"></span></p>
+  </footer>
+
+  <script src="scripts/lazyload.js"></script>
+</body>
+</html>

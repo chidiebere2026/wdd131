@@ -1,0 +1,65 @@
+:root {
+  --bg-color: #111;
+  --text-color: #fff;
+  --accent: #f4b400;
+}
+
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body */
+body {
+  font-family: Arial, sans-serif;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  text-align: center;
+}
+
+/* Main Layout */
+main {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  margin-bottom: 20px;
+  color: var(--accent);
+}
+
+/* Images */
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 20px auto;
+  opacity: 0;
+  background-color: black;
+
+  /* Animation */
+  animation: fadeIn 1.9s ease forwards;
+}
+
+/* Fade-in animation */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    filter: brightness(0);
+  }
+  100% {
+    opacity: 1;
+    filter: brightness(1);
+  }
+}
+
+/* Footer */
+footer {
+  margin-top: 40px;
+  padding: 20px;
+  background-color: #000;
+  font-size: 0.9rem;
+}
