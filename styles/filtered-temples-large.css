@@ -1,0 +1,60 @@
+@media (min-width: 768px) {
+
+/* Hide hamburger */
+#hamburger {
+  display: none;
+}
+
+/* Header layout */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 var(--spacing-medium);
+}
+
+.header-top {
+  padding: 1rem 0;
+}
+
+/* Navigation visible */
+#primary-nav {
+  display: block;
+}
+
+#primary-nav ul {
+  display: flex;
+  gap: 2rem;
+}
+
+#primary-nav li {
+  padding: 0;
+}
+
+ #temple-container {
+    grid-template-columns: 1fr;
+  }
+
+}
+
+/* =========================
+   VERY SMALL PHONES (< 400px)
+   ========================= */
+@media (max-width: 400px) {
+  
+  #temple-container {
+    padding: 10px;
+  }
+
+  .temple-card {
+    padding: 8px;
+  }
+
+  .temple-card h3 {
+    font-size: 1rem;
+  }
+
+  .temple-card p {
+    font-size: 0.85rem;
+  }
+}

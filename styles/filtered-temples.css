@@ -1,0 +1,172 @@
+/* Root Variables (already provided) */
+:root {
+  --color-header-bg: #011733;
+  --color-header-text: #ffffff;
+  --color-nav-hover: #e9b712;
+  --color-footer-bg: #141516f1;
+  --color-footer-text: #ffffff;
+  --color-dark: #242424;
+  --font-main: "Raleway", Arial, sans-serif;
+  --font-heading: "Play", sans-serif;
+  --spacing-small: 0.5rem;
+  --spacing-medium: 1.5rem;
+  --max-width: 1200px;
+}
+
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body */
+body {
+  font-family: var(--font-main);
+  color: var(--color-dark);
+  background: #d9d9d9;
+  line-height: 1.6;
+}
+
+header, main, footer {
+  max-width: var(--max-width);
+  margin: 0 auto;
+}
+
+/* HEADER */
+header {
+  background: var(--color-header-bg);
+  color: var(--color-header-text);
+}
+
+/* Top header row */
+.header-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: var(--spacing-medium);
+}
+
+.site-title {
+  font-family: var(--font-heading);
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
+/* Hamburger */
+#hamburger {
+  font-size: 2rem;
+  border: none;
+  background: transparent;
+  color: var(--color-header-text);
+  cursor: pointer;
+}
+
+/* Navigation */
+#primary-nav {
+  display: none;
+}
+
+#primary-nav ul {
+  list-style: none;
+  text-align: center;
+}
+
+#primary-nav li {
+  padding: 0.8rem;
+}
+
+#primary-nav a {
+  text-decoration: none;
+  color: var(--color-header-text);
+  font-weight: 400;
+  font-family: "Play", sans-serif;
+  font-size: 19px;
+}
+
+#primary-nav a:hover {
+  color: var(--color-dark);
+  background-color: var(--color-nav-hover);
+  padding: 10px;
+}
+
+/* Show nav when active */
+#primary-nav.open {
+  display: block;
+}
+
+#primary-nav .active {
+  color: var(--color-nav-hover);
+  font-weight: bold;
+}
+
+/* MAIN */
+main {
+  max-width: var(--max-width);
+  margin: auto;
+  padding: var(--spacing-medium);
+}
+
+h1 {
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+/* ===============================
+   Temple Grid Layout
+================================ */
+#temples {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1rem;
+  padding: 1rem;
+}
+
+/* ===============================
+   Temple Card
+================================ */
+#temples section {
+  background-color: #ffffff;
+  padding: 1rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+#temples section:hover {
+  transform: scale(1.02);
+}
+
+/* ===============================
+   Temple Text
+================================ */
+#temples h3 {
+  margin-bottom: 0.5rem;
+  font-size: 1.2rem;
+}
+
+#temples p {
+  margin: 0.25rem 0;
+  font-size: 0.95rem;
+}
+
+/* ===============================
+   Temple Images
+================================ */
+#temples img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  margin-top: 0.75rem;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+/* FOOTER */
+footer {
+  margin-top: 2rem;
+  text-align: center;
+  background: var(--color-footer-bg);
+  color: var(--color-footer-text);
+  padding: var(--spacing-medium);
+  font-size: 0.9rem;
+}

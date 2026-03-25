@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="A photo gallery show casing the temples of the Church of Jesus Christ of Latter-day Saints.">
+<meta name="author" content="Mary Asoya">
+<title>Temple Album</title>
+
+<!-- Google Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Play:wght@400;700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="styles/filtered-temples.css">
+<link rel="stylesheet" href="styles/filtered-temples-large.css">
+
+<script src="scripts/filtered-temples.js" defer></script>
+</head>
+
+<body>
+
+<header>
+    <div class="header-top">
+        <span class="site-title">Temple Album</span>
+        <button type="button" id="hamburger" aria-label="Menu">☰</button>
+    </div>
+   <nav id="primary-nav">
+  <ul>
+    <li><a href="#" id="home" class="active">Home</a></li>
+    <li><a href="#" id="old">Old</a></li>
+    <li><a href="#" id="new">New</a></li>
+    <li><a href="#" id="large">Large</a></li>
+    <li><a href="#" id="small">Small</a></li>
+  </ul>
+</nav>
+</header>
+
+<main>
+   <h1>LDS Temples</h1>
+<div id="temples"></div>
+
+</main>
+
+<footer>
+  <p>&copy; <span id="year"></span> 🌸 Mary Chidiebere Asoya 🌸 Nigeria</p>
+    <p>Last Modification: <span id="lastModified"></span></p>
+ </footer>
+
+</body>
+</html>
