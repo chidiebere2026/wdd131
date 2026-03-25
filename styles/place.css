@@ -53,11 +53,11 @@ padding:20px;
 box-shadow:var(--shadow);
 width:280px;
 font-family: "Play", sans-serif;
-box-shadow: 0 6px 18px var(--shadow);
+
 
 }
 
-.data-card h2{
+.data-card h2 {
 background:var(--green);
 color:white;
 padding:10px;
@@ -87,7 +87,7 @@ font-family: "Play", sans-serif;
 
 }
 
-.weather-card h2{
+.weather-card h2 {
 background:var(--green);
 color:white;
 padding:10px;
