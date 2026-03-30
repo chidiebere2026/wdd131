@@ -27,8 +27,8 @@ body {
 }
 
 header {
-  background-color: var(--header-bg);
-  color: var(--header-text);
+  background-color: var(--primary-color);
+  color: var(--navbar-color);
   padding: 20px;
   text-align: center;
 }
