@@ -94,6 +94,11 @@ button {
   color: var(--secondary-color);
 }
 
+.nav-menu a.active {
+  color: var(--secondary-color);
+  font-weight: bold;
+}
+
 /* BUTTON */
 .btn {
   background: var(--secondary-color);

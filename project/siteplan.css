@@ -2,16 +2,17 @@
 
 /* Root variables*/
 :root {
-  --bg-color: #f4f4f4;
-  --primary-color: #2c3e50; 
-  --secondary-color: #e74c3c; 
+  --background-color: #f4f4f4;
+  --navbar-color: #f1f1f1;
+  --primary-color: #01161E;
+  --secondary-color: #FFAE03;
   --text-color: #333333;
-  --header-bg: #2c3e50;
-  --header-text: #ffffff;
 
   --color-sample-bg-main: #f4f4f4;
-  --color-sample-bg-primary: #2c3e50;
-  --color-sample-bg-secondary: #e74c3c;
+  --color-sample-bg-primary: #01161E;
+  --color-sample-bg-secondary: #FFAE03;
+  --color-sample-bg-background: #f4f4f4;
+  --color-sample-bg-text: #333333;
 }
 
 /* Global Styles */
@@ -84,6 +85,8 @@ ul, ol {
 .color-sample.main { background-color: var(--color-sample-bg-main); }
 .color-sample.primary { background-color: var(--color-sample-bg-primary); }
 .color-sample.secondary { background-color: var(--color-sample-bg-secondary); }
+.color-sample.background { background-color: var(--color-sample-bg-background);}
+.color-sample.text { background-color: var(--color-sample-bg-text);}
 
 /* Wireframe Placeholder */
 .wireframe {

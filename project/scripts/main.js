@@ -12,9 +12,9 @@ hamburger.addEventListener("click", () => {
 // Get stored cards or initialize default cards
 let cardsData = JSON.parse(localStorage.getItem('cardsData')) || [
  {
-  image: "images/sunrise-hope.jpg",
+  image: "images/depression.jpg",
   category: "Mental Health, Wellness",
-  date: "2032-08-10",
+  date: "2026-04-10",
   title: "Finding Light Again: Small Steps Out of Depression",
   text: "Recovery doesn’t happen overnight. It begins with small, consistent steps—getting out of bed, reaching out, and choosing hope even on difficult days.",
   authorName: "Dr. Maya Collins",
@@ -24,7 +24,7 @@ let cardsData = JSON.parse(localStorage.getItem('cardsData')) || [
 {
   image: "images/journal.jpg",
   category: "Self-Care, Growth",
-  date: "2032-08-12",
+  date: "2026-04-12",
   title: "Journaling Through the Darkness: Writing as Healing",
   text: "Putting your thoughts on paper can help you process emotions, identify patterns, and create space for clarity and self-understanding.",
   authorName: "Liam Carter",
@@ -32,9 +32,9 @@ let cardsData = JSON.parse(localStorage.getItem('cardsData')) || [
   authorImage: "images/liam.jpg"
 },
 {
-  image: "images/nature-walk.jpg",
+  image: "images/nature-therapy.jpg",
   category: "Lifestyle, Mental Health",
-  date: "2032-08-15",
+  date: "2026-04-15",
   title: "Nature Therapy: How the Outdoors Can Lift Your Mood",
   text: "Spending time outside, even for a few minutes, can reduce stress, improve mood, and reconnect you with a sense of calm and balance.",
   authorName: "Ava Green",
@@ -42,9 +42,9 @@ let cardsData = JSON.parse(localStorage.getItem('cardsData')) || [
   authorImage: "images/ava.jpg"
 },
 {
-  image: "images/support-group.jpg",
+  image: "images/support.jpg",
   category: "Community, Support",
-  date: "2032-08-18",
+  date: "2026-04-18",
   title: "You’re Not Alone: The Power of Support Systems",
   text: "Opening up to others can feel difficult, but connection is one of the most powerful tools in overcoming depression.",
   authorName: "Daniel Brooks",
@@ -52,9 +52,9 @@ let cardsData = JSON.parse(localStorage.getItem('cardsData')) || [
   authorImage: "images/daniel.jpg"
 },
 {
-  image: "images/meditation.jpg",
+  image: "images/meditations.jpg",
   category: "Mindfulness, Healing",
-  date: "2032-08-20",
+  date: "2026-04-20",
   title: "Quieting the Mind: Meditation for Emotional Balance",
   text: "Practicing mindfulness and meditation can help you stay present, reduce negative thoughts, and build emotional resilience over time.",
   authorName: "Sophia Lee",
@@ -62,9 +62,9 @@ let cardsData = JSON.parse(localStorage.getItem('cardsData')) || [
   authorImage: "images/sophia.jpg"
 },
 {
-  image: "images/fitness.jpg",
+  image: "images/exercise.jpg",
   category: "Health, Wellness",
-  date: "2032-08-22",
+  date: "2026-04-22",
   title: "Moving Forward: How Exercise Supports Mental Health",
   text: "Physical activity releases endorphins, boosts energy, and can be a powerful ally in improving mood and reducing symptoms of depression.",
   authorName: "Ethan Walker",
@@ -72,9 +72,9 @@ let cardsData = JSON.parse(localStorage.getItem('cardsData')) || [
   authorImage: "images/ethan.jpg"
 },
 {
-  image: "images/therapy-session.jpg",
+  image: "images/speakout.jpg",
   category: "Mental Health, Recovery",
-  date: "2032-08-25",
+  date: "2026-04-25",
   title: "Speaking Up: How Therapy Can Help You Heal",
   text: "Talking to a professional provides a safe space to explore your thoughts, understand your emotions, and develop healthy coping strategies.",
   authorName: "Dr. Elena Morris",
@@ -82,9 +82,9 @@ let cardsData = JSON.parse(localStorage.getItem('cardsData')) || [
   authorImage: "images/elena.jpg"
 },
 {
-  image: "images/self-care.jpg",
+  image: "images/depressed.jpg",
   category: "Wellness, Self-Care",
-  date: "2032-08-28",
+  date: "2026-04-28",
   title: "Rebuilding Yourself: Daily Habits to Fight Depression",
   text: "Simple routines like proper sleep, balanced meals, and mindful breaks can gradually rebuild your strength and improve your mental well-being.",
   authorName: "James Carter",
