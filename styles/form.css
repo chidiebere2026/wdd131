@@ -32,7 +32,7 @@ body {
 }
 
 header, footer {
-    width: 100%;
+    width: 980px;
     background-color: var(--primary-purple);
     color: var(--white);
     text-align: center;
