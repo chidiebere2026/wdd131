@@ -939,3 +939,70 @@ button:hover {
   font-weight: 500;
 }
 
+/* Section */
+.references {
+  padding: 80px 20px;
+}
+
+/* Heading */
+.references h1 {
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 15px;
+}
+
+.intro {
+  text-align: center;
+  color: var(--text-color);
+  max-width: 600px;
+  margin: 0 auto 50px;
+  font-size: 1.3rem;
+}
+
+/* Cards */
+.ref-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+.ref-card {
+  background: var(--primary-color);
+  padding: 25px;
+  border-radius: 12px;
+  transition: 0.3s ease;
+}
+
+.ref-card:hover {
+  transform: translateY(-5px);
+}
+
+/* Titles */
+.ref-card h3 {
+  margin-bottom: 15px;
+  font-size: 20px;
+  color: var(--navbar-color);
+}
+
+/* List */
+.ref-card ul {
+  list-style: none;
+}
+
+.ref-card li {
+  margin-bottom: 15px;
+  font-size: 16px;
+  color: var(--navbar-color);
+}
+
+.ref-card a {
+  display: inline-block;
+  margin-top: 5px;
+  color: var(--secondary-color);
+  text-decoration: none;
+  font-size: 13px;
+}
+
+.ref-card a:hover {
+  text-decoration: underline;
+}
