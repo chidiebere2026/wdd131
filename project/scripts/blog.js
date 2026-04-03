@@ -91,7 +91,7 @@ posts.forEach((post, index) => {
 
       <p>${post.text}</p>
 
-    <a href="#" class="btn">Read more</a>
+    <a href="#" class="blog-btn">Read more</a>
       </div>
     </div>
   `;

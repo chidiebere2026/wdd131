@@ -20,7 +20,7 @@ async function loadResources() {
         <div class="resource-content">
           <h3>${resource.title}</h3>
           <p>${resource.description}</p>
-          <a href="${resource.link}" target="_blank" class="btn">Learn More</a>
+          <a href="${resource.link}" target="_blank" class="resource-btn">Learn More</a>
         </div>
       `;
 
