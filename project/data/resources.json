@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Understanding Depression",
+    "description": "Learn what depression is, its symptoms, and practical ways to begin the healing process.",
+    "image": "images/depression.jpg",
+    "link": "https://www.who.int/news-room/fact-sheets/detail/depression"
+  },
+  {
+    "title": "Managing Anxiety Daily",
+    "description": "Discover simple breathing techniques, grounding exercises, and habits that help reduce anxiety.",
+    "image": "images/anxiety.jpg",
+    "link": "https://www.helpguide.org/articles/anxiety/anxiety-disorders-and-anxiety-attacks.htm"
+  },
+  {
+    "title": "Addiction Recovery Guide",
+    "description": "A beginner-friendly guide to understanding addiction and the steps toward recovery.",
+    "image": "images/addiction.jpg",
+    "link": "https://nida.nih.gov/publications/drugs-brains-behavior-science-addiction/treatment-recovery"
+  },
+  {
+    "title": "Building Healthy Coping Skills",
+    "description": "Healthy coping mechanisms can help you manage stress and difficult emotions more effectively.",
+    "image": "images/coping.jpg",
+    "link": "https://my.clevelandclinic.org/health/articles/6392-stress-coping-with-lifes-stressors"
+  },
+  {
+    "title": "How to Support Someone with Depression",
+    "description": "Learn how to compassionately support friends or family members struggling with depression.",
+    "image": "images/support.jpg",
+    "link": "https://www.mayoclinic.org/diseases-conditions/depression/in-depth/depression/art-20045943"
+  },
+  {
+    "title": "Practicing Mindfulness for Mental Health",
+    "description": "Mindfulness practices can help calm the mind and improve emotional wellbeing.",
+    "image": "images/mindfulness.jpg",
+    "link": "https://www.mayoclinic.org/tests-procedures/meditation/in-depth/mindfulness-exercises/art-20046356"
+  }
+]

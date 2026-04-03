@@ -96,6 +96,52 @@
   .card img {
         height: 150px;
   }
+
+  .about-banner {
+    height: 180px;
+  }
+
+  .about-banner h1 {
+    font-size: 2rem;
+  }
+
+  .about-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .about-content {
+    font-size: 15px;
+  }
+
+  .mission-container{
+    flex-direction: column;
+  }
+
+  .mission-card h2{
+    font-size: 26px;
+  }
+.blog-row,
+  .blog-row.reverse {
+    flex-direction: column; /* stack image on top */
+    text-align: center;
+  }
+
+  .blog-image {
+    margin-bottom: 20px;
+  }
+
+  .resources-container {
+    grid-template-columns: 1fr;
+  }
+  
+   .contact-grid {
+    flex-direction: column;
+  }
+
+  .form-row {
+    flex-direction: column;
+  }
 }
 
 /* =========================
@@ -131,4 +177,13 @@
     width: 32px;
     height: 32px;
   }
+
+  .about-banner {
+    height: 150px;
+  }
+
+  .about-banner h1 {
+    font-size: 1.6rem;
+  }
+
 }

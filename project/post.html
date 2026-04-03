@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Solace | Live Better, Feel Better</title>
+  <meta name="description"
+        content="WDD 131 – Dynamic Web Fundamentals – Mary Chidiebere Asoya – personal profile, Nigeria background, web development resources.">
+  <meta name="author" content="Mary Chidiebere Asoya">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Play:wght@400;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles/small.css">
+  <link rel="stylesheet" href="styles/larger.css">
+  <script src="scripts/main.js" defer></script>
+  <script src="scripts/posts.js" defer></script>
+</head>
+
+<body>
+<!--Header and Navigation-->
+<header class="navbar">
+  <div class="navbar-container">
+    
+    <!-- LOGO -->
+    <div class="logo">
+      <img src="images/solace-logo.png" alt="Logo">
+      <div class="logo-text">
+        <h1>SOLACE</h1>
+        <span class="tagline">Live Better, Feel Better 🌿</span>
+      </div>
+    </div>
+
+    <!-- HAMBURGER -->
+    <button type="button" class="hamburger" id="hamburger" title="Toggle navigation menu">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+    <!-- NAV LINKS -->
+    <nav class="nav-menu" id="navMenu">
+      <a href="index.html">Home</a>
+      <a href="about-us.html">About Us</a>
+      <a href="resources.html">Resources</a>
+      <a href="blog.html" class="active">Blog</a>
+      <a href="contact-us.html">Contact Us</a>
+      <a href="sign-up.html" class="signup-btn">Sign Up</a>
+    </nav>
+
+  </div>
+</header>
+
+
+<main class="post-container">
+  <h1 id="post-title"></h1>
+  <div class="post-meta">
+    <span id="post-category"></span>
+    <span id="post-date"></span>
+  </div>
+  <img id="post-image" alt="post image">
+  <div id="post-content"></div>
+</main>
+
+
+<footer class="site-footer">
+  <div class="footer-content">
+
+    <!-- Social Icons (Images) -->
+    <div class="social-icons">
+      <a href="#"><img src="images/facebook.png" alt="Facebook"></a>
+      <a href="#"><img src="images/twitter.png" alt="Twitter"></a>
+      <a href="#"><img src="images/linkedin.png" alt="LinkedIn"></a>
+      <a href="#"><img src="images/youtube.png" alt="YouTube"></a>
+    </div>
+
+    <!-- Copyright -->
+    <p class="footer-text">
+       ©<span id="currentyear"></span> | <a href="#">🌸 Mary Chidiebere Asoya 🌸 Nigeria</a>
+    </p>
+
+    <!-- Links -->
+    <div class="footer-links">
+      <p id="lastModified"></p>
+      <span>/</span>
+      <a href="#">References</a>
+    </div>
+
+  </div>
+</footer>
+
+</body>
+</html>
