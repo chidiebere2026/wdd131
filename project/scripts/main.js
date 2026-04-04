@@ -1,12 +1,3 @@
-// Hamburger Menu Toggle
-const hamburger = document.getElementById("hamburger");
-const navMenu = document.getElementById("navMenu");
-
-hamburger.addEventListener("click", () => {
-  hamburger.classList.toggle("active"); 
-  navMenu.classList.toggle("active");  
-});
-
 // Articles Cards 
 
 // Get stored cards or initialize default cards
@@ -152,10 +143,3 @@ window.addEventListener('DOMContentLoaded', () => {
 });
 
 
-// Dynamic Copyright Year
-const year = new Date().getFullYear();
-document.getElementById("currentyear").textContent = year;
-
-// Last Modified Date
-document.getElementById("lastModified").textContent =
-  "Last Modified: " + document.lastModified;
