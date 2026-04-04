@@ -825,7 +825,7 @@ h1, h2, h3 {
 
 .subtitle {
   color: var(--text-color);
-  font-size: 14px;
+  font-size: 22px;
 }
 
 .contact-header h2 {
@@ -837,6 +837,7 @@ h1, h2, h3 {
 .contact-header p {
   color: var(--text-color);
   line-height: 1.6;
+  font-size: 1rem;
 }
 
 /* GRID */
@@ -921,19 +922,6 @@ button:hover {
 
 .info-block h5 {
   margin-bottom: 5px;
-}
-
-/* SOCIAL LINKS */
-
-.social-links {
-  display: flex;
-  gap: 10px;
-}
-
-.social-links a {
-  text-decoration: none;
-  color: #0d6efd;
-  font-weight: 500;
 }
 
 /* Section */
